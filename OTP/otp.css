@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    }
+    
+    .rectangle{
+        width: 50%;
+    }
+    .welcome{
+        position: relative;
+        top:  -700px ;
+        left: 800px;
+        
+    }
+    
+    .login-para{
+        color: lightgray;
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+    
+    
+    .login-header{
+        font-family: sans-serif;
+    }
+    
+    label{
+        font-family: sans-serif;
+    }
+    
+    .put{
+    height: 50px;
+    width: 50px;   
+    border-radius: 10px;
+     position: relative;
+     top: 40px;
+      margin: 20px;
+      top: 20px;
+      font-weight: 400;
+    }
+    
+    
+    
+     a:hover{
+        text-decoration: underline;
+     }
+    
+    .logo{
+        position: absolute;
+        left: 20px;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    
+    button{
+    width: 500px;
+    height: 50px;
+    padding: 20px auto;
+    margin-left: 5px;
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    }
+
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    ::-webkit-scrollbar {
+        display: block;
+        width: 5px;
+    
+    }
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+        
+    ::-webkit-scrollbar-thumb {
+        background-color: black;
+        border-right: none;
+        border-left: none;
+    }
+    
+    ::-webkit-scrollbar-track-piece:end {
+        background: transparent;
+        margin-bottom: 10px; 
+    }
+    
+    ::-webkit-scrollbar-track-piece:start {
+        background: transparent;
+        margin-top: 10px;
+    }

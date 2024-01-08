@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    }
+    
+    .rectangle{
+        width: 50%;
+    }
+    .welcome{
+        position: relative;
+        top:  -800px ;
+        left: 800px;
+        
+    }
+    
+    .login-para{
+        color: lightgray;
+        font-weight: 900;
+        font-family: sans-serif;
+    }
+    
+    
+    .login-header{
+        font-family: sans-serif;
+    }
+    
+    label{
+        font-family: sans-serif;
+    }
+    
+    .put{
+    height: 50px;
+    width: 450px;   
+    border-radius: 10px;
+     position: relative;
+     top: 40px;
+      right: 110px;
+      margin: 20px;
+      font-weight: 400;
+    }
+    
+    #email{
+        position: relative;
+        left: -140px;
+        font-weight: 400;
+    }
+    
+    .forgotten{
+    margin: 40px;
+    display: flex;
+    margin: 10px;
+    
+    }
+    
+    .forgotten-password{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-left: 110px;
+    font-weight: 700;
+    }
+     a:hover{
+        text-decoration: underline;
+     }
+    
+     
+     
+    
+     input[type="checkbox"]{
+        height: 20px;
+        position: absolute;
+        margin-top: 30px;
+        left: -20px;
+        accent-color: black;
+        width: 20px;
+     }
+    
+     .password-para{
+      font-weight: 700;
+      margin-top: 30px;
+     }
+    
+    .logo{
+        position: absolute;
+        left: 20px;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    
+    button{
+    width: 400px;
+    height: 50px;
+    padding: 20px auto;
+    margin-left: 5px;
+    border: none;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar {
+        display: block;
+        width: 5px;
+    
+    }
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+        
+    ::-webkit-scrollbar-thumb {
+        background-color: black;
+        border-right: none;
+        border-left: none;
+    }
+    
+    ::-webkit-scrollbar-track-piece:end {
+        background: transparent;
+        margin-bottom: 10px; 
+    }
+    
+    ::-webkit-scrollbar-track-piece:start {
+        background: transparent;
+        margin-top: 10px;
+    }
